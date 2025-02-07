@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="banner">
+    ǝʇᴉsqǝʍ ɐ sᴉ sᴉɥ┴ ǝʇᴉsqǝʍ ɐ sᴉ sᴉɥ┴ ǝʇᴉsqǝʍ ɐ sᴉ sᴉɥ┴ ǝʇᴉsqǝʍ ɐ sᴉ sᴉɥ┴ ǝʇᴉsqǝʍ ɐ sᴉ sᴉɥ┴
+  </div>
+
+  <div class="container">
+    <a href="about.html">
+      <div class="circle about-me">About Me</div>
+    </a>
+
+    <a href="playlist.html">
+      <div class="circle playlist">Playlist</div>
+    </a>
+
+  
+    <a href="moodboard.html">
+      <div class="circle inspiration">Inspiration</div>
+    </a>
+
+    <a href="https://jackiemednick.carrd.co/#" target="_blank">
+      <div class="circle older-work">Older Work</div>
+    </a>
+
+    <a href="javascript:void(0);" onclick="showComingSoon()">
+      <div class="circle current-work">Current Class Work</div>
+    </a>
+  </div>
+
+  <div class="coming-soon-overlay" id="coming-soon-overlay">
+    <div class="coming-soon-container">
+      <h1>Coming Soon</h1>
+      <a href="index.html" class="back-button">Back to Home</a>
+    </div>
+  </div>
+
+  <div class="message-box box1">Welcome to the website</div>
+  <div class="message-box box2">Click a bubble</div>
+
+  <div class="smiley"></div>
+
+<div class="gif-container">
+  <img src="SP.gif" alt="Your First GIF">
+</div>
+
+<div class="gif-container second-gif">
+  <img src="shrek.gif" alt="Your Second GIF">
+</div>
+
+<div class="gif-container-bottom">
+  <img src="guy.gif" alt="Bottom GIF">
+</div>
+
+  <script>
+    function showComingSoon() {
+      document.getElementById('coming-soon-overlay').style.display = 'flex';
+    }
+  </script>
+
+</body>
+</html>
